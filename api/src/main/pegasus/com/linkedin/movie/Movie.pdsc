@@ -1,0 +1,43 @@
+{
+  "type": "record",
+  "name": "Movie",
+  "namespace": "com.linkedin.movie",
+  "doc": "Represents a movie",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string",
+      "doc": "Unique identifier"
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "doc": "Title of the movie"
+    },
+    {
+      "name": "synopsis",
+      "type": "string",
+      "doc": "Title of the movie"
+    },
+    {
+      "name": "release_date",
+      "type": "string",
+      "doc": "Title of the movie"
+    },
+    {
+      "name": "rating",
+      "type": "string",
+      "doc": "Movie rating"
+    },
+    {
+      "name": "length",
+      "type": "int",
+      "doc": "Length of the movie in minutes"
+    },
+    {
+      "name": "stars",
+      "type": "int",
+      "doc": "User rated stars"
+    }
+  ]
+}

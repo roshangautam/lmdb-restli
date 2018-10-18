@@ -1,0 +1,20 @@
+{
+  "name" : "actors",
+  "namespace" : "com.linkedin.actor",
+  "path" : "/actors",
+  "schema" : "com.linkedin.actor.Actor",
+  "doc" : "Very simple RestLi Resource that serves up a fortune cookie.\n\ngenerated from: com.linkedin.actor.impl.ActorsResource",
+  "collection" : {
+    "identifier" : {
+      "name" : "actorsId",
+      "type" : "long"
+    },
+    "supports" : [ "get" ],
+    "methods" : [ {
+      "method" : "get"
+    } ],
+    "entity" : {
+      "path" : "/actors/{actorsId}"
+    }
+  }
+}

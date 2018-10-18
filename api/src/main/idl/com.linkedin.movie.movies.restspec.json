@@ -1,0 +1,20 @@
+{
+  "name" : "movies",
+  "namespace" : "com.linkedin.movie",
+  "path" : "/movies",
+  "schema" : "com.linkedin.movie.Movie",
+  "doc" : "Very simple RestLi Resource that serves up a fortune cookie.\n\ngenerated from: com.linkedin.movie.impl.MoviesResource",
+  "collection" : {
+    "identifier" : {
+      "name" : "moviesId",
+      "type" : "long"
+    },
+    "supports" : [ "get" ],
+    "methods" : [ {
+      "method" : "get"
+    } ],
+    "entity" : {
+      "path" : "/movies/{moviesId}"
+    }
+  }
+}

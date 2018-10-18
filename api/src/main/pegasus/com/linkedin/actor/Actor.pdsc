@@ -1,0 +1,28 @@
+{
+  "type": "record",
+  "name": "Actor",
+  "namespace": "com.linkedin.actor",
+  "doc": "Represents an actor in a movie",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string",
+      "doc": "Unique identifier"
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "doc": "Name of the actor"
+    },
+    {
+      "name": "gender",
+      "type": "string",
+      "doc": "Gender of the actor"
+    },
+    {
+      "name": "bio",
+      "type": "string",
+      "doc": "Bio of the actor"
+    }
+  ]
+}
