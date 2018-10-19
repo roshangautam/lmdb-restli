@@ -14,7 +14,7 @@ Please find a step by step guide on RestLi [here](https://github.com/linkedin/re
 
 - Clone this repository
 
-  `git clone url && cd directory`
+  `git clone url && cd lmdb-restli`
 
 - Run the following for the first time to propagate the pdsc and idl changes.
 
