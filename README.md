@@ -2,9 +2,15 @@
 This is a standalone example that demonstrates a very simple RestLi server application 
 
 ## Documentation
-Please find a step by step guide on RestLi [here](https://github.com/linkedin/pegasus/wiki/Quickstart:-A-Tutorial-Introduction-to-RestLi)
+Please find a step by step guide on RestLi [here](https://github.com/linkedin/rest.li/wiki/Quickstart:-A-Tutorial-Introduction-to-Rest.li)
 
 ## Getting Started
+
+- Install Java and Gradle
+  
+  On macOs, with homebrew
+  
+  `brew cask install java` && `brew install gradle`
 
 - Clone this repository
 
