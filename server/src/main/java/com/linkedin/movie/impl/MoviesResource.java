@@ -25,6 +25,7 @@ import com.linkedin.restli.server.resources.CollectionResourceTemplate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.util.concurrent.TimeUnit;
 
 
 /**
@@ -69,7 +70,7 @@ public class MoviesResource extends CollectionResourceTemplate<Long, Movie>
         .setId(stringBuilder.toString())
         .setTitle(faker.book().title())
         .setSynopsis(faker.lorem().paragraph())
-        .setRelease_date(faker.date().toString())
+        .setRelease_date(faker.date().past(1, TimeUnit.DAYS).toString())
         .setLength(faker.number().numberBetween(30, 250))
         .setRating(randomRating())
         .setStars(faker.number().numberBetween(1, 5));
