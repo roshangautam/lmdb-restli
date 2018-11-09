@@ -30,4 +30,17 @@ Please find a step by step guide on RestLi [here](https://github.com/linkedin/re
   
   You can access server resources using `http://localhost:8080/actors/1` or `http://localhost:8080/movies/1`  
   
+  
+## Optional IDE Setup
+
+This project is setup to work with Intellij Idea out of the box. If you already don't have Intellij Idea in your machine you can download a compy from https://jetbrains.com. 
+
+- Generate Intellij Idea files
+  
+  From within the project folder execute the following
+  
+  `gradle idea`
+  
+- Open the generated lmdb-restli.ipr file either from your file explorer or from command line and it should launch Intellij Idea and load the project.
+  
 
